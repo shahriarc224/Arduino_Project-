@@ -37,10 +37,12 @@ void setup() {
   Serial.begin(115200);
   delay(1000);
 
+
   /* ===== DHT & Servo ===== */
   dht.begin();
   myservo.attach(D4);
   myservo.write(0);
+
 
   /* ===== LED SETUP ===== */
   pinMode(LED1, OUTPUT);
@@ -65,6 +67,7 @@ void setup() {
   Firebase.begin(&config, &auth);
   Firebase.reconnectWiFi(true);
 }
+
 
 void loop() {
 
