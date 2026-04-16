@@ -7,9 +7,7 @@
 #include <DHT.h>
 #include <Servo.h>
 
-
 /* ===== WiFi ===== */
-
 #define WIFI_SSID "iPhone 17 pro max"
 #define WIFI_PASSWORD "123456789"
 
@@ -21,16 +19,15 @@
 
 
 /* ===== DHT11 ===== */
-
 #define DHTPIN D2
 #define DHTTYPE DHT11
 DHT dht(DHTPIN, DHTTYPE);
 
 /* ===== Servo ===== */
-
 Servo myservo;
 
 /* ===== LED PINS ===== */
+
 #define LED1 D6
 #define LED2 D7
 #define LED3 D8
