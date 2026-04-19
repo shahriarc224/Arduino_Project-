@@ -1,5 +1,5 @@
 //Code:
-//Class evaluatation project 
+//IOT Class evaluatation project:
 
 
 #include <ESP8266WiFi.h>
