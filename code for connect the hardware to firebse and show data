@@ -2,7 +2,6 @@
 //IOT Class evaluatation project:
 
 
-
 #include <ESP8266WiFi.h>
 #include <FirebaseESP8266.h>
 #include <DHT.h>
@@ -41,6 +40,7 @@ FirebaseConfig config;
 void setup() {
   Serial.begin(115200);
   delay(1000);
+
 
 
   /* ===== DHT & Servo ===== */
