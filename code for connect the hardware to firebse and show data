@@ -1,7 +1,6 @@
 //Code:
 //IOT Class evaluatation project:
 
-
 #include <ESP8266WiFi.h>
 #include <FirebaseESP8266.h>
 #include <DHT.h>
@@ -101,7 +100,9 @@ void loop() {
     fanStatus = "SLOW";
   }
 
+
   /* ===== LED CONTROL ===== */
+
   if (fanStatus == "FAST") {
     digitalWrite(LED1, HIGH);
     digitalWrite(LED2, HIGH);
