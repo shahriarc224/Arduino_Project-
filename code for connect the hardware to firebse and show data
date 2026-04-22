@@ -105,7 +105,6 @@ void loop() {
 
 
   /* ===== LED CONTROL ===== */
-
   if (fanStatus == "FAST") {
     digitalWrite(LED1, HIGH);
     digitalWrite(LED2, HIGH);
@@ -127,7 +126,9 @@ void loop() {
     delay(400);
   }
 
+
   /* ===== SERVO ===== */
+
   int speedDelay = (fanStatus == "FAST") ? 10 : 40;
 
   for (int j = 0; j <= 180; j++) {
