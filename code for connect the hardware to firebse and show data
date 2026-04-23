@@ -1,13 +1,15 @@
 //Code:
 //IOT Class evaluatation project:
 
-
 #include <ESP8266WiFi.h>
 #include <FirebaseESP8266.h>
 #include <DHT.h>
 #include <Servo.h>
 
+
+
 /* ===== WiFi ===== */
+
 #define WIFI_SSID "iPhone 17 pro max"
 #define WIFI_PASSWORD "123456789"
 
