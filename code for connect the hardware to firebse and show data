@@ -20,12 +20,15 @@
 
 
 /* ===== DHT11 ===== */
+
 #define DHTPIN D2
 #define DHTTYPE DHT11
 DHT dht(DHTPIN, DHTTYPE);
 
 /* ===== Servo ===== */
+
 Servo myservo;
+
 
 /* ===== LED PINS ===== */
 
