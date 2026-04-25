@@ -19,6 +19,7 @@
 #define FIREBASE_AUTH "AIzaSyD8NtAc_GgSz8fDq4nbY9WYwboqiE8SaQs"
 
 
+
 /* ===== DHT11 ===== */
 
 #define DHTPIN D2
@@ -123,6 +124,7 @@ void loop() {
     digitalWrite(LED1, HIGH);
     digitalWrite(LED2, HIGH);
     digitalWrite(LED3, LOW);
+
     delay(400);
 
     digitalWrite(LED1, LOW);
