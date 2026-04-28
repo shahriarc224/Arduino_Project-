@@ -18,8 +18,6 @@
 #define FIREBASE_HOST "iot-lab-e5a09-default-rtdb.firebaseio.com"
 #define FIREBASE_AUTH "AIzaSyD8NtAc_GgSz8fDq4nbY9WYwboqiE8SaQs"
 
-
-
 /* ===== DHT11 ===== */
 
 #define DHTPIN D2
