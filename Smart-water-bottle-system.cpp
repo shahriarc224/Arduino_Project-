@@ -9,7 +9,6 @@
 #define DISABLE_FB_FUNCTIONS
 #define DISABLE_ERROR_QUEUE
 
-
 #include <Firebase_ESP_Client.h>
 #include <OneWire.h>
 #include <DallasTemperature.h>
