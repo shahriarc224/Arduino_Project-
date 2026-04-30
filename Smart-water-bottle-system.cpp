@@ -92,7 +92,6 @@ void setup() {
 
   sensors.begin();
 
-  
   WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
   WiFi.setSleep(false);
 
@@ -112,6 +111,7 @@ void setup() {
 
   testSSL();
 
+  
   delay(2000);
 
   // 🔥 Firebase config
