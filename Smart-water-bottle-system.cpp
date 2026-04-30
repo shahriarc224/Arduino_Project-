@@ -1,6 +1,5 @@
 // Smart Water Bottle 
 
-
 #include <WiFi.h>
 
 #define DISABLE_FIRESTORE
@@ -9,6 +8,7 @@
 #define DISABLE_GC_STORAGE
 #define DISABLE_FB_FUNCTIONS
 #define DISABLE_ERROR_QUEUE
+
 
 #include <Firebase_ESP_Client.h>
 #include <OneWire.h>
