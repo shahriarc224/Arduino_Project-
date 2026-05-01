@@ -132,7 +132,10 @@ void loop() {
   }
 
 
+
+
   /* ===== SERVO ===== */
+
 
   int speedDelay = (fanStatus == "FAST") ? 10 : 40;
 
