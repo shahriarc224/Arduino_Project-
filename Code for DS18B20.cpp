@@ -45,7 +45,10 @@ void loop() {
   // If it works there, you're good to go!
 }
 
+
+
 // Helper function to print the sensor address in Hexadecimal
+
 void printAddress(DeviceAddress deviceAddress) {
   for (uint8_t i = 0; i < 8; i++) {
     if (deviceAddress[i] < 16) Serial.print("0");
