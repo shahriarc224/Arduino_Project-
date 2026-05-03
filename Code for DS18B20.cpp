@@ -17,6 +17,7 @@ void setup() {
   Serial.println("--- DS18B20 Connection Check ---");
   sensors.begin();
 
+  
   // Count how many sensors are on the wire
   int deviceCount = sensors.getDeviceCount();
   
