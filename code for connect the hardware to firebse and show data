@@ -113,6 +113,8 @@ void loop() {
   }
 
 
+
+
   /* ===== LED CONTROL ===== */
   if (fanStatus == "FAST") {
     digitalWrite(LED1, HIGH);
