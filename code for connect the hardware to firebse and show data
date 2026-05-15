@@ -80,7 +80,9 @@ void setup() {
 
   Serial.println("\nWiFi Connected");
 
+
   /* ===== Firebase ===== */
+
   config.host = FIREBASE_HOST;
   config.signer.tokens.legacy_token = FIREBASE_AUTH;
 
