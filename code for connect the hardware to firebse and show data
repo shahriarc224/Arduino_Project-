@@ -43,8 +43,8 @@ Servo myservo;
 #define LED3 D8
 
 
-/* ===== Firebase Objects ===== */
 
+/* ===== Firebase Objects ===== */
 
 FirebaseData fbdo;
 FirebaseAuth auth;
