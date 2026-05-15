@@ -32,6 +32,8 @@ Servo myservo;
 
 /* ===== LED PINS ===== */
 
+
+
 #define LED1 D6
 #define LED2 D7
 #define LED3 D8
