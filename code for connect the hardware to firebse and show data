@@ -67,8 +67,9 @@ void setup() {
   pinMode(LED3, OUTPUT);
 
 
-  /* ===== WiFi ===== */
 
+
+  /* ===== WiFi ===== */
   WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
   Serial.print("Connecting to WiFi");
 
