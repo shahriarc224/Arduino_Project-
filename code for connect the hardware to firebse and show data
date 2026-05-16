@@ -18,7 +18,6 @@
 
 
 
-
 /* ===== Firebase ===== */
 
 #define FIREBASE_HOST "iot-lab-e5a09-default-rtdb.firebaseio.com"
