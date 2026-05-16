@@ -56,9 +56,11 @@ void setup() {
 
 
   /* ===== DHT & Servo ===== */
+
   dht.begin();
   myservo.attach(D4);
   myservo.write(0);
+
 
   /* ===== LED SETUP ===== */
 
