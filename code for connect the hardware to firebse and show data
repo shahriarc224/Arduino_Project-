@@ -56,8 +56,6 @@ void setup() {
   delay(1000);
 
 
-
-
   /* ===== DHT & Servo ===== */
   dht.begin();
   myservo.attach(D4);
